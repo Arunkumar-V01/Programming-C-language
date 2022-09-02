@@ -1,0 +1,18 @@
+#include <stdio.h>
+int fact(int a);
+int main()
+{
+    int a,x;
+    printf("enter a");
+    scanf("%d",&a);
+    x=fact(a);
+    printf("%d",x);
+}
+int fact(int a)
+{ 
+    if(a==0)
+    return 1;
+    else
+    return (a*fact(a-1));
+    
+}
