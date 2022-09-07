@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void main()
+{
+    void test(float,int);
+    float a=5;
+    int b=3;
+    test(a,b);
+    }
+    void test(float a, int b)
+{
+    printf("%f %d",a,b);
+}
