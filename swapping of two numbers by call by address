@@ -1,0 +1,17 @@
+#include <stdio.h>
+swap(int*a,int*b);
+int main()
+{
+    int a=5,b=6;
+    printf("values before swap a=%d b=%d ",a,b);
+    swap(&a,&b);
+    printf("values after swap a=%d b=%d ",a,b);
+}
+     swap(int*a,int*b)
+     {
+         int t;
+         t=*a;
+         *a=*b;
+         *b=t;
+         
+     }
