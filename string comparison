@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+    int i;
+    i=0;
+  char a[]="rahul";
+char b[]="Rahul";
+while(a[i]!='\0'&&b[i]!='\0'&&a[i]==b[i])
+{
+    ++i;
+}
+  {
+  if(a[i]==b[i])
+  printf("equal");
+  else
+  printf(" not equal");
+  }
+}
