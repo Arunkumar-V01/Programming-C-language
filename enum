@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    enum A 
+    {
+        a=10,b,c
+    }P;
+    P=b;
+    switch(P)
+    {
+        case a: printf("Hai");break;
+         case b: printf("Hello");break;
+}
+}
