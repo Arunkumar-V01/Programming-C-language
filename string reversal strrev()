@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include<string.h>
+int main()
+{
+    char a[50]="malayalam";
+   strrev(a);
+   printf("%s",a);
+}
