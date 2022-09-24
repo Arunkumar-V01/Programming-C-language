@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    
+    char a[]={'a','b','c','d','e','\0'};
+    a[4]='\0';
+    printf("%s\n",a);
+    a[1]=98;
+    printf("%s\n",a);
+    a[4]=101;
+    printf("%s\n",a);
+    
+    return 0;
+}
