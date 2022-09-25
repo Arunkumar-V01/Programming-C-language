@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    a=5;
+    b=10;
+    c=a;
+    a=b;
+    b=c;
+    printf("the value of a is %d the value of b is %d",a,b);
+
+
+}
