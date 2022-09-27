@@ -1,0 +1,15 @@
+#include <stdio.h>
+int
+main ()
+{
+  int c;
+  float f;
+  scanf ("%d", &c);
+
+  printf ("the value of c is %d",c);
+  f = (9.0 / 5.0 * c) + 32;
+  printf ("\nthe value of k is %0.9f", f);
+
+
+  return 0;
+}
