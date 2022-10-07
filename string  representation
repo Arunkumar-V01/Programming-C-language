@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main()
+{
+    char a[5][9]={"monish","hari"};
+  
+    printf("%c %c",a[0][2],a[1][3]);
+   
+    return 0;
+}
