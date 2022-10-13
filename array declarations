@@ -10,5 +10,4 @@ int main()
     printf("%d\n",*(a+1));
     printf("%d\n",a[2]++);
     printf("%d\n",++a[4]+5);
-    return 0;
-}
+    
