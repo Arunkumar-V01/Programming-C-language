@@ -13,7 +13,5 @@ else
     
 printf("the given num is odd");
 }
-
-
 return 0;
 }
