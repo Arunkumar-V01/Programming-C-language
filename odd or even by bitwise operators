@@ -9,8 +9,7 @@ printf("the given num is even");
     
 }
 else
-{
-    
+{  
 printf("the given num is odd");
 }
 return 0;
