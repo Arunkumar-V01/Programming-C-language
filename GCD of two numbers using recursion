@@ -14,5 +14,4 @@ int fact(int a)
     return 1;
     else
     return (a*fact(a-1));
-    
-}
+   }
