@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main(void) 
+{
+    int a,k,i;
+    scanf("%d",&a);
+    while(a--)
+    {
+        int b[7];
+        k=0;
+        for(i=0;i<7;i++)
+        {
+        scanf("%d",&b[i]);
+        if(b[i]==1)
+        {
+            k++;
+        }
+        }
+        if(k>=4)
+        printf("YES\n");
+        else
+         printf("NO\n");
+}
+}
